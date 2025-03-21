@@ -1,0 +1,24 @@
+{
+  "name": "modern-js-project",
+  "version": "1.0.0",
+  "description": "Современный JavaScript проект с использованием ES6 модулей",
+  "main": "src/js/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "babel-loader": "^9.1.3",
+    "live-server": "^1.2.2",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
